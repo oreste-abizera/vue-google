@@ -1,14 +1,12 @@
 <template>
-  <div>
-    Results page
-  </div>
+  <div><ResultPage /></div>
 </template>
 <script>
-// import ResultPage from "@/components/ResultPage.vue";
+import ResultPage from "@/components/ResultPage.vue";
 
 export default {
   components: {
-    // ResultPage,
+    ResultPage,
   },
 };
 </script>
